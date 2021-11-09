@@ -8,7 +8,7 @@ function App() {
     setOpen(!open);
   };
   return (
-    <div className="flex flex-row h-screen border-2 border-red">
+    <div className="flex flex-row h-screen border-red">
       <Left open={open} handleOpen={handleOpen} />
       <Right handleOpen={handleOpen} />
     </div>

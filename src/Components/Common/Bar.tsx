@@ -25,7 +25,7 @@ const Bar: FunctionComponent<ISkills> = ({ progress }) => {
         whitespace-nowrap
         text-white
         justify-center
-        
+        animate-load
         ${color}
       `}
         ></div>

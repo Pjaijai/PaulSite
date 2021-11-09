@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+
 const Upper: FunctionComponent = () => {
   return (
     <div className="flex justify-between  border-2 bg-three p-2">
@@ -18,10 +18,16 @@ const Upper: FunctionComponent = () => {
 
       <div className=" flex flex-col">
         <div className="flex flex-row justify-center text-4xl">
-          <a href="https://youtube.com/" className=" hover:text-five">
+          <a
+            href="https://www.linkedin.com/in/paulwong177/"
+            className=" hover:text-five"
+          >
             <FaLinkedin />
           </a>
-          <a href="https://youtube.com/" className="hover:text-five">
+          <a
+            href="https://github.com/Pjaijai?tab=repositories"
+            className="hover:text-five"
+          >
             <FaGithub />
           </a>
         </div>
