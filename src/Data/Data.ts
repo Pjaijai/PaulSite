@@ -79,8 +79,8 @@ export const project : IProject[] = [
       title:'Paulsite',
       description:'This is my personal web site lol',
       tech:['React.js', 'Javascript', 'Typescript' , 'Tailwind.css' ],
-      demo:'',
-      link:''
+      demo:'https://paulsite-4e42c.web.app/',
+      link:'https://github.com/Pjaijai/PaulSite'
 
    },{
        title:'To do List',
